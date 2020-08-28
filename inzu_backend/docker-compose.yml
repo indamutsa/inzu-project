@@ -1,0 +1,28 @@
+version: "3"
+volumes:
+  pgdata:
+services:
+  inzu_api:
+    #image: python:3.6
+    container_name: "inzu_api"
+    build:
+      context: .
+      dockerfile: docker/dev/Dockerfile
+    volumes:
+      - .:/inzu_backend
+    ports:
+      - 8000:8000
+    command: python manage.py runserver 0.0.0.0:8000
+    links:
+      - postgres_db
+    depends_on:
+      - "postgres_db"
+  postgres_db:
+    container_name: "postgres_db"
+    image: "postgres"
+    env_file:
+      - database.env # configure postgres
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "6543:5432"

@@ -1,0 +1,9 @@
+version: "3"
+services:
+  inzu_front:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: inzu-front
+    ports:
+      - 5000:80
