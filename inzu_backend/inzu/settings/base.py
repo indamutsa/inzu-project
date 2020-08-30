@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost']
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '164.90.227.229', 'inzuestates.eu', 'www.inzuestates.eu']
 
 
 # Application definition
@@ -138,7 +138,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-MEDIA_URL = '/media/'
+MEDIA_URL = 'https://inzuestates.eu/backend/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Logging configuration
