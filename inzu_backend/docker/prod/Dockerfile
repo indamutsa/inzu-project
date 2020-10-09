@@ -12,6 +12,7 @@ WORKDIR /inzu_backend
 
 # Copy the local codebase into docker container
 COPY ./inzu_backend /inzu_backend
+RUN chmod -R 777 /inzu_backend
 
 #Installing the requirements
 RUN pip install -r requirements/prod.txt

@@ -1,7 +1,7 @@
 version: "3"
 volumes:
   pgdata:
-  static_vol:
+  static:
   media_vol:
 services:
   inzu_front:
@@ -17,14 +17,13 @@ services:
     depends_on:
       - "inzu_api"
   ngnix:
-    container_name: "inzu_nginx"
     build:
       context: .
       dockerfile: inzu_backend/docker/prod/nginx/Dockerfile
     environment:
       - DJANGO_SETTINGS_MODE=inzu.settings.prod
     volumes:
-      - static_vol:/static
+      - ./inzu_backend/static:/static
       - media_vol:/media
     depends_on:
       - inzu_api
@@ -38,8 +37,9 @@ services:
       context: .
       dockerfile: inzu_backend/docker/prod/Dockerfile
     volumes:
-      - static_vol:/inzu_backend/static
-      - media_vol:/inzu_backend/inzu/media
+      - ./inzu_backend:/inzu_backend
+      - ./inzu_backend/static:/static
+      - media_vol:/inzu/media
     ports:
       - 8000:8000
     command: gunicorn -w 4 inzu.wsgi -b 0.0.0.0:8000

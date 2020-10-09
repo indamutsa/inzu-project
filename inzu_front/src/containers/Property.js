@@ -12,9 +12,9 @@ const Property = () => {
   const [next, setNext] = useState("");
   const [active, setActive] = useState(1);
 
+  console.log(`${process.env.REACT_APP_API_URL}/api/listings/?page=1` + '-******************-');
   useEffect(() => {
     window.scrollTo(0, 0);
-
     const fetchData = async () => {
       try {
         const res = await axios.get(
@@ -32,6 +32,7 @@ const Property = () => {
   }, []);
 
   const displayListings = () => {
+    
     let display = [];
     let result = [];
 
