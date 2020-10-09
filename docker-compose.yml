@@ -24,7 +24,7 @@ services:
       - .:/inzu_backend
     ports:
       - 8000:8000
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python inzu_backend/manage.py runserver 0.0.0.0:8000
     links:
       - postgres_db
     depends_on:
