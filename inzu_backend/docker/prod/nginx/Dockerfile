@@ -9,10 +9,12 @@ RUN mkdir -p /static/
 
 WORKDIR /media
 RUN chown -R nginx:nginx /media
+RUN chmod -R 777 /media
 
 WORKDIR /static
 RUN chown -R nginx:nginx /static
+RUN chmod -R 777 /static
 
-COPY ./inzu_backend/inzu/static /static/
-COPY ./inzu_backend/media /media/
+#COPY ./inzu_backend/inzu/static /static/
+#COPY ./inzu_backend/inzu/media /media/
 
