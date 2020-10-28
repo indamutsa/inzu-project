@@ -68,8 +68,9 @@ const Home = () => {
                 <div className="slider_banner_info_w3ls">
                   {" "}
                   <h1 className="text-uppercase mb-5">
-                    A new way to explore <br />
-                    real estate
+                    A new way to find close
+                    <br />
+                    suitable accommodations
                   </h1>
                   {/* <a
                     href="/#"
@@ -126,14 +127,16 @@ const Home = () => {
               </div>
               <p className="mb-4">
                 {" "}
-                Etiam facilisis odio sit amet finibus sollicitudin. Nulla et
-                augue eu ipsum efficitur venenatis. Nam vitae viverra turpis.
-                Donec ipsum dolor, lacinia eget aliquam eget, ultricies a
-                tortor. Cras ultrices, purus nec dignissim faucibus, enim erat
-                sagittis felis, rutrum.
+                Our company was founded by young enterpreneurs and professionals
+                who were early graduate from european university after recognize
+                challenges students encounter while doing international
+                fellowships. The make-up of our group is very rich with people
+                from all around the world. We work tirelessly to make sure
+                services offered are the best, transparent, effective and
+                punctual. Contact us to learn more.
               </p>
               <img
-                src="./assets/images/certificate.png"
+                src={require("../assets/images/certificate.png")}
                 alt=""
                 className="img-fluid"
               />{" "}
@@ -146,18 +149,21 @@ const Home = () => {
                   <h4 className="text-uppercase my-3">Professionals</h4>
                   <p className="mb-4">
                     {" "}
-                    Etiam facilisis odio sit amet finibus sollicitudin. Nulla et
-                    augue eu ipsum efficitur venenatis.
+                    Our company encomprises of people from different background
+                    and highly professional such as engineers, teachers,
+                    doctors, artists, journalists, who all work together towards
+                    achieving your dream home. Learn how you can be our
+                    associate below.
                   </p>
-                  d-flex justify-content-center
                 </div>
                 <div className="col-sm-6 icon2">
                   <span className="fas fa-briefcase" />
                   <h4 className="text-uppercase my-3">Business owners </h4>
                   <p className="mb-4">
                     {" "}
-                    Etiam facilisis odio sit amet finibus sollicitudin. Nulla et
-                    augue eu ipsum efficitur venenatis.
+                    Our company is owned by various shareholders and investors
+                    and we are managed by a competent board of trustees that
+                    ensures professionalism and integrity into our services
                   </p>
                 </div>
                 <div className="col-sm-6 icon3 mb-sm-0 mb-3">
@@ -165,8 +171,8 @@ const Home = () => {
                   <h4 className="text-uppercase my-3">Superior Service </h4>
                   <p>
                     {" "}
-                    Etiam facilisis odio sit amet finibus sollicitudin. Nulla et
-                    augue eu ipsum efficitur venenatis.
+                    At inzuestates, quality services are our fundamental
+                    asset,so we care about it deeply!
                   </p>
                 </div>
                 <div className="col-sm-6 icon4">
@@ -174,8 +180,8 @@ const Home = () => {
                   <h4 className="text-uppercase my-3">Cash &amp; Credit </h4>
                   <p>
                     {" "}
-                    Etiam facilisis odio sit amet finibus sollicitudin. Nulla et
-                    augue eu ipsum efficitur venenatis.
+                    Our method of payments are very diverse and range from cash
+                    deposit, credit cards to credit transfers.
                   </p>
                 </div>
               </div>

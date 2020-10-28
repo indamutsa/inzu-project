@@ -34,8 +34,8 @@ export class Footer extends Component {
                     <NavLink to="/">Inzu Estates</NavLink>
                   </h2>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem atus error sit volupt unde.
+                    We are here to find a suitable home and comfortable home for
+                    you at the place of your choice
                   </p>
                 </div>
                 <div className="col-lg-7 col-md-9 mt-lg-0 mt-4 row w3_agile-footer1 f2">
@@ -76,9 +76,6 @@ export class Footer extends Component {
                       <li>
                         <NavLink to="/#">Privacy policy</NavLink>
                       </li>
-                      <li>
-                        <NavLink to="/#">Blog</NavLink>
-                      </li>
                     </ul>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-4 inner-li">
@@ -89,9 +86,6 @@ export class Footer extends Component {
                       </li>
                       <li>
                         <NavLink to="/#">FAQ</NavLink>
-                      </li>
-                      <li>
-                        <NavLink to="/#">media</NavLink>
                       </li>
                     </ul>
                   </div>
@@ -113,7 +107,9 @@ export class Footer extends Component {
               </div>
             </div>
             <div className="agileits_w3layouts-copyright text-center">
-              <p>© 2020 Inzu Estates. All Rights Reserved</p>
+              <p>
+                © {new Date().getFullYear()} Inzu Estates. All Rights Reserved
+              </p>
             </div>
           </div>
         </section>

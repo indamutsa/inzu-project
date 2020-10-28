@@ -1,6 +1,5 @@
 /*---------------------------------------------*/
 a {
-  font-family: Ubuntu-Regular;
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -91,21 +90,18 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
   [ Utility ]*/
 .txt1 {
-  font-family: Ubuntu-Regular;
   font-size: 15px;
   color: #999999;
   line-height: 1.4;
 }
 
 .txt2 {
-  font-family: Ubuntu-Regular;
   font-size: 15px;
   color: #57b846;
   line-height: 1.4;
 }
 
 .txt3 {
-  font-family: Ubuntu-Bold;
   font-size: 15px;
   color: #57b846;
   line-height: 1.4;
@@ -157,7 +153,6 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: JosefinSans-Bold;
   font-size: 30px;
   color: #fff;
   line-height: 0.5;
@@ -185,7 +180,6 @@ iframe {
 }
 
 .input100 {
-  font-family: Ubuntu-Bold;
   font-size: 15px;
   color: #1b3815;
   line-height: 1.2;
@@ -256,7 +250,6 @@ iframe {
   background-color: #57b846;
   border-radius: 25px;
 
-  font-family: Ubuntu-Bold;
   font-size: 15px;
   color: #fff;
   line-height: 1.2;
@@ -297,7 +290,6 @@ iframe {
   right: 10px;
   pointer-events: none;
 
-  font-family: Ubuntu-Bold;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -314,7 +306,6 @@ iframe {
 
 .alert-validate::after {
   content: "\f06a";
-  font-family: FontAwesome;
   display: block;
   position: absolute;
   z-index: 1100;

@@ -1,15 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "Montserrat", sans-serif, monospace;
 }
 
 /*--
@@ -314,7 +311,6 @@ ul.dropdown-menu a {
   float: right;
   margin-right: 6px;
   margin-top: 12px;
-  font-family: "Nunito Sans", sans-serif;
   color: #3dbb3d;
   font-weight: 900;
   font-size: 1.5em;
@@ -416,7 +412,7 @@ ul.dropdown-menu a {
 .callbacks_tabs a:after {
   content: "\f111";
   font-size: 0;
-  font-family: FontAwesome;
+  font-family: "Montserrat", sans-serif;;
   visibility: visible;
   display: block;
   height: 15px;
@@ -532,7 +528,7 @@ img.img-responsive {
 .callbacks_tabs a:after {
   content: "\f111";
   font-size: 0;
-  font-family: FontAwesome;
+  font-family: "Montserrat", sans-serif;
   visibility: visible;
   display: block;
   height: 15px;
@@ -1559,7 +1555,7 @@ ul.footer-social-icons li {
 .callbacks_tabs a:after {
   content: "\f111";
   font-size: 0;
-  font-family: FontAwesome;
+  font-family: "Montserrat", sans-serif;
   visibility: visible;
   display: block;
   height: 16px;
@@ -1911,7 +1907,7 @@ p.read_para {
 
 p.read_para i {
   color: #29df99;
-  font-family: initial;
+  font-family: "Montserrat", sans-serif;
   font-size: 19px;
 }
 

@@ -300,7 +300,6 @@ ul.dropdown-menu a {
   float: right;
   margin-right: 6px;
   margin-top: 12px;
-  font-family: "Nunito Sans", sans-serif;
   color: #3dbb3d;
   font-weight: 900;
   font-size: 1.5em;
@@ -402,7 +401,6 @@ ul.dropdown-menu a {
 .callbacks_tabs a:after {
   content: "\f111";
   font-size: 0;
-  font-family: FontAwesome;
   visibility: visible;
   display: block;
   height: 15px;
@@ -518,7 +516,6 @@ img.img-responsive {
 .callbacks_tabs a:after {
   content: "\f111";
   font-size: 0;
-  font-family: FontAwesome;
   visibility: visible;
   display: block;
   height: 15px;
@@ -1537,7 +1534,7 @@ ul.footer-social-icons li {
 .callbacks_tabs a:after {
   content: "\f111";
   font-size: 0;
-  font-family: FontAwesome;
+
   visibility: visible;
   display: block;
   height: 16px;
@@ -1889,7 +1886,6 @@ p.read_para {
 
 p.read_para i {
   color: #29df99;
-  font-family: initial;
   font-size: 19px;
 }
 
@@ -2750,70 +2746,6 @@ p strong {
     font-size: 33px;
   }
 }
-/*-- //Responsive Design --*/
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-/*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/
-
-/* * {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
-} */
-
-/* body, html {
-	height: 100%;
-	font-family: Ubuntu-Regular, sans-serif;
-} */
-/* 
-/*---------------------------------------------*/
-/* a {
-  font-family: Ubuntu-Regular;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
-  transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-}
-
-a:focus {
-  outline: none !important;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #1b3815;
-}  */
-
-/*---------------------------------------------*/
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0px;
-}
-
-p {
-  font-family: Ubuntu-Regular;
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
-}
-
-ul,
-li {
-  margin: 0px;
-  list-style-type: none;
-} */
 
 /*---------------------------------------------*/
 input {
@@ -2886,21 +2818,18 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Ubuntu-Regular;
   font-size: 15px;
   color: #999999;
   line-height: 1.4;
 }
 
 .txt2 {
-  font-family: Ubuntu-Regular;
   font-size: 15px;
   color: #57b846;
   line-height: 1.4;
 }
 
 .txt3 {
-  font-family: Ubuntu-Bold;
   font-size: 15px;
   color: #57b846;
   line-height: 1.4;
@@ -2953,7 +2882,6 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: JosefinSans-Bold;
   font-size: 30px;
   color: #fff;
   line-height: 1.2;
@@ -2981,7 +2909,6 @@ iframe {
 }
 
 .input100 {
-  font-family: Ubuntu-Bold;
   font-size: 15px;
   color: #1b3815;
   line-height: 1.2;
@@ -3052,7 +2979,6 @@ iframe {
   background-color: #57b846;
   border-radius: 25px;
 
-  font-family: Ubuntu-Bold;
   font-size: 15px;
   color: #fff;
   line-height: 1.2;
@@ -3093,7 +3019,6 @@ iframe {
   right: 10px;
   pointer-events: none;
 
-  font-family: Ubuntu-Bold;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -3110,7 +3035,6 @@ iframe {
 
 .alert-validate::after {
   content: "\f06a";
-  font-family: FontAwesome;
   display: block;
   position: absolute;
   z-index: 1100;
