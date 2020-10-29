@@ -148,9 +148,9 @@ export class Contact extends Component {
                   </div>
                   <div className="col-10">
                     <h3 className="mb-3">Contact numbers </h3>
-                    <p>+12 782 868 2234</p>
-                    <p>+12 782 868 2234</p>
-                    <p>+12 782 868 2234</p>
+                    <p>+49 173 890 4394</p>
+                    <p>+49 177 688 9134.</p>
+                    <p>+49 421 568 7560</p>
                   </div>
                 </div>
               </div>

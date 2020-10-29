@@ -127,13 +127,11 @@ const Home = () => {
               </div>
               <p className="mb-4">
                 {" "}
-                Our company was founded by young enterpreneurs and professionals
-                who were early graduate from european university after recognize
-                challenges students encounter while doing international
-                fellowships. The make-up of our group is very rich with people
-                from all around the world. We work tirelessly to make sure
-                services offered are the best, transparent, effective and
-                punctual. Contact us to learn more.
+                We are a social enterprise of professional realtors and
+                intercultural relations experts based in Bremen, Hannover and
+                Oldenburg in Germany and Italy as well. We work tirelessly to
+                make sure services offered are the best, transparent, effective
+                and punctual. Contact us to learn more.
               </p>
               <img
                 src={require("../assets/images/certificate.png")}
@@ -171,8 +169,8 @@ const Home = () => {
                   <h4 className="text-uppercase my-3">Superior Service </h4>
                   <p>
                     {" "}
-                    At inzuestates, quality services are our fundamental
-                    asset,so we care about it deeply!
+                    At inzuestates, quality services is our fundamental asset,so
+                    we care about it deeply!
                   </p>
                 </div>
                 <div className="col-sm-6 icon4">
@@ -214,45 +212,46 @@ const Home = () => {
             <div className="col-md-4 mb-md-0 mb-5 service-grid1">
               <span className="fas fa-cloud-download-alt" />
               <h3 className="text-uppercase my-4">
-                Nulla etaugue eu ipsum elit efficitur.
+                Home apartments directory.
               </h3>
               <p className="mb-4">
                 {" "}
-                Etiam facilisis odio sit amet finibus sollicitudin. Nulla et
-                augue eu ipsum efficitur venenatis. Nam vitae viverra turpis.
-                Donec ipsum dolor, lacinia eget aliquam eget, ultricies a
-                tortor. Cras ultrices, purus nec dignissim faucibus, enim erat
-                sagittis felis, rutrum.
+                Through our property available database, you can simply navigate
+                and find what suits your wishes. Then you can contact us or make
+                an application for the room of your choice. We recommend you to
+                visit our respective business offices according to your location
+                to speed up the process of getting our flexible and quick
+                services.
               </p>
               <a href="/#"> Read more </a>
             </div>
             <div className="col-md-4 mb-md-0 mb-5 service-grid1">
               <span className="fas fa-clone" />
               <h3 className="text-uppercase my-4">
-                Nulla etaugue eu ipsum elit efficitur.
+                Property management services.
               </h3>
               <p className="mb-4">
                 {" "}
-                Etiam facilisis odio sit amet finibus sollicitudin. Nulla et
-                augue eu ipsum efficitur venenatis. Nam vitae viverra turpis.
-                Donec ipsum dolor, lacinia eget aliquam eget, ultricies a
-                tortor. Cras ultrices, purus nec dignissim faucibus, enim erat
-                sagittis felis, rutrum.
+                Our professionals and personnel take care of your property and
+                make sure it stays with dignity and updated market value. We
+                serve your wishes by maintaining your home to stay healthy,
+                splendid and welcoming. Join our community to learn more about
+                our services.
               </p>
               <a href="/#"> Read more </a>
             </div>
             <div className="col-md-4 service-grid1">
               <span className="fab fa-centercode" />
               <h3 className="text-uppercase my-4">
-                Nulla etaugue eu ipsum elit efficitur.
+                Conflict and finance management.
               </h3>
               <p className="mb-4">
                 {" "}
-                Etiam facilisis odio sit amet finibus sollicitudin. Nulla et
-                augue eu ipsum efficitur venenatis. Nam vitae viverra turpis.
-                Donec ipsum dolor, lacinia eget aliquam eget, ultricies a
-                tortor. Cras ultrices, purus nec dignissim faucibus, enim erat
-                sagittis felis, rutrum.
+                Our company accompanies you in your new home to ensure a
+                comfortable experience and cozy environment. In case of
+                incidents, our personnel will be the first to make sure your
+                rights are kept safe. Through our rich directory, we can easily
+                find a new home for you!
               </p>
               <a href="/#"> Read more </a>
             </div>

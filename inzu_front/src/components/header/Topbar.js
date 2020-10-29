@@ -25,7 +25,7 @@ export default function Topbar() {
         <div className="d-flex flex-row flex-wrap justify-content-around">
           <div className="p-2 text-success">
             <a href="/#" className="text-success">
-              <i className="fas fa-phone" /> (617)-555-5555
+              <i className="fas fa-phone" /> +(49)-173-890-4394
             </a>
           </div>
           <div className="p-2">

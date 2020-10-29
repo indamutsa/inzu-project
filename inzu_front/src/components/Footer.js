@@ -35,7 +35,7 @@ export class Footer extends Component {
                   </h2>
                   <p>
                     We are here to find a suitable home and comfortable home for
-                    you at the place of your choice
+                    you at the place of your choice. Join our community!
                   </p>
                 </div>
                 <div className="col-lg-7 col-md-9 mt-lg-0 mt-4 row w3_agile-footer1 f2">
